@@ -1,0 +1,40 @@
+.ikinci-navbar{
+   display: flex;
+   justify-content: center;
+   border-bottom: 1px solid #ccc;
+   height: 75px;
+   align-items: center;
+   
+}
+
+.ikinci-navbar img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.ikinci-navbar a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    color: white;
+}
+
+
+.ikinci-navbar .element{
+    background-color: cornflowerblue;
+    padding:11px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+
+.ikinci-navbar .element:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    
+}

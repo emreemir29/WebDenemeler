@@ -1,0 +1,19 @@
+.medya{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+video{
+    width: 20rem;
+    margin:2px;
+    padding:2px;
+}
+
+.medya-h2{
+    text-align: center;
+    padding: 12px;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 5px;
+    
+}

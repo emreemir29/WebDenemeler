@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    padding:1rem;
+    background-color:#f1f1f1 ;
+    border-top: 4px solid #ccc;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.footer ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.footer ul li{
+    padding: 2rem;
+}
+.footer ul li a:hover{
+    border-bottom: 2px solid black;
+    color:brown;
+}
